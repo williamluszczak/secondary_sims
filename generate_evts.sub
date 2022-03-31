@@ -1,0 +1,15 @@
+executable = /home/wluszczak/ara/secondaries/scripts/generate_evts.sh
+
+log = /dev/null
+output = /dev/null
+error = /home/wluszczak/cluster_err.err
+initialdir = /home/wluszczak
+
+notification = Complete
+
+args = $(inputseed) $(energy)
+
+request_memory = 4000
+
+queue
+
